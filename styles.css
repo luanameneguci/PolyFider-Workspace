@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Roboto:wght@400;700&display=swap');
+*{
+    font-family: Roboto;
+}
+
+
+img{
+    width: 100%;
+  }
+body {
+    background-image: url('img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+#titulo{
+    font-size: 140px;
+    font-family: Kanit;
+    font-weight: 400;
+    color: #303030;
+    margin: 0 auto;
+    }
+
+#polimeros{
+    font-size: 70px;
+    background-color: #F5746E;
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 20px;
+    padding-top: 1%;
+    padding-left: 1%;
+
+}
