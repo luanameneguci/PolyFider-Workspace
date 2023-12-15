@@ -64,3 +64,17 @@ body {
   padding-left: 1%;
 
 }
+#materiais{
+  font-size: 70px;
+  background-color: #6295EB;
+  color: white;
+  width: 75%;
+  margin: 0 auto;
+  border-radius: 20px;
+  padding-top: 1%;
+  padding-left: 1%;
+}
+#experienciatitulo{
+  font-family:'Kanit', sans-serif;
+  font-size: 100px;
+}
