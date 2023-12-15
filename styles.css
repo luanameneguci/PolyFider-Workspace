@@ -10,7 +10,7 @@ img{
 body {
     background-image: url('img/background.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100%;
   }
 #titulo{
     font-size: 140px;
