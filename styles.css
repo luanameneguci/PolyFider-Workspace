@@ -78,3 +78,6 @@ body {
   font-family:'Kanit', sans-serif;
   font-size: 100px;
 }
+ul {
+  list-style-type: none;
+}
