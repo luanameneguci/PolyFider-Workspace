@@ -5,74 +5,26 @@
 
 img{
     width: 100%;
-  }
+}
+
 body {
     background-image: url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
-  }
+}
+
 #titulo{
     font-size: 140px;
     font-family: Kanit;
     font-weight: 400;
     color: #303030;
     margin: 0 auto;
+    padding: 15%;
+    align-items: center;
+    justify-content: center;
     }
 
-#polimeros{
-    font-size: 70px;
-    background-color: #F5746E;
-    color: white;
-    width: 75%;
-    margin: 0 auto;
-    border-radius: 20px;
-    padding-top: 1%;
-    padding-left: 1%;
 
-}
-#reciclar{
-  font-size: 70px;
-  background-color: #F5746E;
-  color: white;
-  width: 75%;
-  margin: 0 auto;
-  border-radius: 20px;
-  padding-top: 1%;
-  padding-left: 1%;
-
-}
-#experiencia{
-  font-size: 70px;
-  background-color: #6295EB;
-  color: white;
-  width: 75%;
-  margin: 0 auto;
-  border-radius: 20px;
-  padding-top: 1%;
-  padding-left: 1%;
-
-}
-#animais{
-  font-size: 70px;
-  background-color: #F5746E;
-  color: white;
-  width: 75%;
-  margin: 0 auto;
-  border-radius: 20px;
-  padding-top: 1%;
-  padding-left: 1%;
-
-}
-#materiais{
-  font-size: 70px;
-  background-color: #6295EB;
-  color: white;
-  width: 75%;
-  margin: 0 auto;
-  border-radius: 20px;
-  padding-top: 1%;
-  padding-left: 1%;
-}
 #experienciatitulo{
   font-family:'Kanit', sans-serif;
   font-size: 100px;
@@ -85,18 +37,21 @@ ul {
 .text-card{
   font-size: 30px;
   color: white;
+  padding:5%;
 }
 
 .titulo-card{
   font-size: 50px;
   color: white;
+  padding: 5%;
 }
 
 .container{
-  width:500px;
-  height:350px;
-  perspective: 800px;
+  width: 800px;
+  height:550px;
+  perspective: 2000px;
   align-items: center;
+  margin:5%;
 }
 
 .container:hover > .card{
@@ -112,7 +67,7 @@ ul {
   transform-style: preserve-3d;
 }
 
-.front, .back{
+.front-blue, .back-blue, .front-red, .back-red{
   height:100%;
   width:100%;
   border-radius: 2rem;
@@ -121,21 +76,36 @@ ul {
   backface-visibility: hidden;
 }
 
-.front{
+.front-red{
   background-color: #F5746E;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 5rem;
+  align-items: left;
 }
 
-.back{
+.front-blue{
+  background-color: #6295EB;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
+}
+
+.back-red{
   background-color: #C85E59;
   transform: rotateY(180deg);
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 5rem;
+  align-items: left;
+}
+
+.back-blue{
+  background-color: #4A76BF;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: left;
 }
