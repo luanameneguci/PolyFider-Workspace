@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500;600;700&family=Roboto:wght@400;700&display=swap');
 *{
     font-family: Roboto;
 }
@@ -13,17 +13,18 @@ body {
     background-size: 100%;
 }
 
-#titulo{
-    font-size: 140px;
+.titulo{
+    font-size: 60px;
     font-family: Kanit;
-    font-weight: 400;
     color: #303030;
-    margin: 0 auto;
-    padding: 15%;
-    align-items: center;
-    justify-content: center;
+    padding-top: 5%;
+    display: flex;
+    flex-direction:row;
     }
 
+    #poly{
+      font-weight: 400;
+    }
 
 #experienciatitulo{
   font-family:'Kanit', sans-serif;
@@ -35,23 +36,29 @@ ul {
 }
 
 .text-card{
-  font-size: 30px;
+  font-size: 35px;
   color: white;
-  padding:5%;
+  padding-left: 5%;
+  padding-right: 15%;
 }
 
 .titulo-card{
   font-size: 50px;
   color: white;
-  padding: 5%;
+  padding-top: 3%;
+  padding-left: 5%;
+  margin-block-start: 0;
+  margin-block-end: 0;
 }
 
 .container{
-  width: 800px;
-  height:550px;
+  width: 100%;
+  height:300px;
   perspective: 2000px;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  margin:5%;
+  margin-bottom: 3%;
 }
 
 .container:hover > .card{
@@ -61,10 +68,14 @@ ul {
 
 .card{
   height:100%;
-  width:100%;
+  width:80%;
   position: relative;
   transition: transform 1500ms;
   transform-style: preserve-3d;
+}
+
+.cards{
+  padding-top: 30%;
 }
 
 .front-blue, .back-blue, .front-red, .back-red{
