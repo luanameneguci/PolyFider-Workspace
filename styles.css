@@ -35,23 +35,31 @@ ul {
 }
 
 .text-card{
-  font-size: 30px;
+  font-size: 50px;
   color: white;
-  padding:5%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding: 5%;
+  align-self: left;
 }
 
 .titulo-card{
-  font-size: 50px;
+  font-size: 70px;
   color: white;
   padding: 5%;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  padding-bottom: 1%;
+  align-self: left;
 }
 
 .container{
-  width: 800px;
+  width: 100%;
   height:550px;
   perspective: 2000px;
-  align-items: center;
-  margin:5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .container:hover > .card{
@@ -60,11 +68,14 @@ ul {
 }
 
 .card{
-  height:100%;
-  width:100%;
-  position: relative;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  height:80%;
+  width:90%;
   transition: transform 1500ms;
   transform-style: preserve-3d;
+  padding-bottom: 5%;
 }
 
 .front-blue, .back-blue, .front-red, .back-red{
@@ -74,6 +85,9 @@ ul {
   box-shadow: 0 0 5px 2px rgba(50,50,50,0.25);
   position: absolute;
   backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .front-red{
@@ -88,8 +102,6 @@ ul {
   background-color: #6295EB;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: left;
 }
 
 .back-red{
@@ -98,7 +110,6 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
 }
 
 .back-blue{
@@ -107,5 +118,11 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: left;
 }
+
+button{
+  border-radius: 2rem;
+  align-self: center;
+}
+
+
