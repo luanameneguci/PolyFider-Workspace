@@ -3,14 +3,11 @@
     font-family: Roboto;
 }
 
-img{
-    width: 100%;
-}
-
 body {
     background-image: url('img/background.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
+    color: white;
 }
 
 #titulo{
@@ -19,19 +16,14 @@ body {
     font-weight: 400;
     color: #303030;
     margin: 0 auto;
-    padding: 15%;
-    align-items: center;
-    justify-content: center;
-    }
-
-
-#experienciatitulo{
-  font-family:'Kanit', sans-serif;
-  font-size: 100px;
+    margin: 10%;
+    margin-top: 8%;
+    margin-bottom: 40%;
+    text-align: center;
 }
 
-ul {
-  list-style-type: none;
+.b{
+  font-size: 128px;
 }
 
 .text-card{
@@ -60,6 +52,7 @@ ul {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  margin-bottom: 5%;
 }
 
 .container:hover > .card{
@@ -82,7 +75,6 @@ ul {
   height:100%;
   width:100%;
   border-radius: 2rem;
-  box-shadow: 0 0 5px 2px rgba(50,50,50,0.25);
   position: absolute;
   backface-visibility: hidden;
   display: flex;
@@ -120,9 +112,77 @@ ul {
   justify-content: center;
 }
 
-button{
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  padding: 1%;
+  border: none;
   border-radius: 2rem;
-  align-self: center;
+  margin-right: 30%;
+  margin-left: 30%;
+  text-align: center;
+  font-size:30px;
 }
 
+.comecar{
+  background-color: #6295EB;
+}
+
+.ver-exemplos{
+  background-color: #F5746E;
+  margin-bottom:10%;
+}
+
+#experienciatitulo{
+  font-family:'Kanit', sans-serif;
+  font-size: 100px;
+  text-align: center;
+  color: #303030;
+  margin: 0 auto;
+  margin-top: 8%;
+}
+
+#materiais{
+  margin: 10%;
+  padding: 5%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #4A76BF;
+  display: flex;
+}
+
+.materiais-necessarios{
+  text-align: center;
+  font-size: 75px;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 50px;
+}
+
+li{
+  margin-bottom: 5%;
+}
+
+.cartaoposreciclagem{
+  margin: 10%;
+  padding: 5%;
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #F5746E;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  font-size: 50px;
+}
+
+img{
+  width: 20%;
+}
 
