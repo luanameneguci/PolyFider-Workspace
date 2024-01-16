@@ -196,3 +196,8 @@ img{
   top: 10px;
   left: 20px;
 }
+
+.img_lixo{
+  position: absolute;
+  z-index: 1;
+}
