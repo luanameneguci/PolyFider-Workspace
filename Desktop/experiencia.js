@@ -22,6 +22,8 @@ function Flutua2(){
     document.getElementById("parte3").style.display="block";
     document.getElementById("teste2").style.display="none";
     document.getElementById("teste3").style.display="block";
+    document.getElementById("afunda").disabled=true;
+    document.getElementById("naoafunda").disabled=true;
 }
 function Afunda3(){
     document.getElementById("parte1").style.display="none";
@@ -36,6 +38,8 @@ function Flutua3(){
     document.getElementById("parte4").style.display="block";
     document.getElementById("teste3").style.display="none";
     document.getElementById("teste4").style.display="block";
+    document.getElementById("afunda2").disabled=true;
+    document.getElementById("naoafunda2").disabled=true;
 }
 function Afunda4(){
     document.getElementById("parte1").style.display="none";
