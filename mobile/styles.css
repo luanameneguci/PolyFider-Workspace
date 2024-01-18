@@ -4,7 +4,7 @@
 }
 
 body {
-    background-image: url('../img/background.jpg');
+    background-image: url('../img/background_alongado-100.jpg');
     background-repeat: no-repeat;
     background-size: 100%;
     color: white;
@@ -197,10 +197,6 @@ li{
   position: relative;
 }
 
-img{
-  width: 20%;
-}
-
 .fazrodar{
   cursor: pointer;
   transform: rotateY(180deg);
@@ -212,7 +208,10 @@ img{
   left: 20px;
 }
 
-.img_lixo{
+.img_lixoflutua{
   position: absolute;
   z-index: 1;
+}
+.experiencia{
+  background-image: url('../img/background-experiencia.jpg');
 }

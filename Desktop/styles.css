@@ -203,7 +203,15 @@ li{
   font-size: 50px;
 }
 
-img{
-  width: 20%;
+.img_lixo{
+  position: absolute;
+  z-index: 1;
 }
 
+.experiencia{
+  background-image: url('../img/background-experiencia.jpg');
+}
+
+.posreciclagem{
+  background-image: url('../img/background_alongado-100.jpg');
+}

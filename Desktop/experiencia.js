@@ -69,7 +69,7 @@ function MostraImagemSeguinte(x,id_imagem,id_titulo){
     if (index_imagem>=imagens.length)
         index_imagem=0;
     //Mostrar imagem
-    document.getElementById(id_imagem).src="img/graficos/"+imagens[index_imagem];
+    document.getElementById(id_imagem).src="../img/graficos/"+imagens[index_imagem];
     //Mostrar titulo
     document.getElementById(id_titulo).innerText=titulos[index_imagem];
     //guardar o nº da imagem atual
