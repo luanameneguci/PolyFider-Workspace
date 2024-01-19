@@ -32,10 +32,10 @@ body {
   margin-block-start: 0;
   margin-block-end: 0;
   padding: 5%;
-  padding-top: 0%;
-  margin-top: 1px;
+  margin-top: 5px;
   margin-bottom: 5px;
   align-self: center;
+  overflow:scroll;
 }
 
 .titulo-card{
@@ -214,4 +214,57 @@ li{
 }
 .experiencia{
   background-image: url('../img/background-experiencia.jpg');
+}
+.bt_afunda{
+  margin: 5%;
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #17A0C0;
+}
+.bt_naoafunda{
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  background-color: #EF6A87;
+}
+.bt_anterior{
+  margin: 2%;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: #62a4b3;
+}
+
+.bt_seguinte{
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: #F5746E;
+}
+.grafico{
+  width: 273px;
+  height: 120px;
+}
+.bt_voltar{
+  font-size: 20px;
+  color: black;
+  text-shadow: 0px 0px 20px red;
+  margin-left: 10%;
+  position: fixed;
+  bottom:5px;
+}
+.bt_voltar:active{
+  color: white;
+}
+.bt_continuar{
+  font-size: 20px;
+  color: black;
+  text-shadow: 0px 0px 20px green;
+  margin-left: 80%;
+  position: fixed;
+  bottom:5px;
+}
+.bt_continuar:active{
+  color: white;
 }

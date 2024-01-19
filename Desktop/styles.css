@@ -190,17 +190,21 @@ li{
 }
 
 .cartaoposreciclagem{
-  margin: 10%;
+  margin: 5%;
   padding: 5%;
   border-radius: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #F5746E;
-  display: flex;
   text-align: center;
   align-items: center;
-  font-size: 50px;
+  font-size: 30px;
+  width: 30%;
+}
+
+.cartaoposreciclagem img{
+  width: 50%;
 }
 
 .img_lixo{
@@ -214,4 +218,36 @@ li{
 
 .posreciclagem{
   background-image: url('../img/background_alongado-100.jpg');
+}
+
+.bt_afunda{
+  margin: 5%;
+  border-radius: 15px;
+  width: 150px;
+  height: 75px;
+  background-color: #17A0C0;
+}
+.bt_naoafunda{
+  border-radius: 15px;
+  width: 150px;
+  height: 75px;
+  background-color: #EF6A87;
+}
+.bt_anterior{
+  margin: 2%;
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: #62a4b3;
+}
+
+.bt_seguinte{
+  border-radius: 15px;
+  width: 100px;
+  height: 50px;
+  background-color: #F5746E;
+}
+.grafico{
+  width: 578px;
+  height: 274px;
 }
