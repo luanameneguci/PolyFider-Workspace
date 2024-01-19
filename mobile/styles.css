@@ -218,32 +218,58 @@ li {
 
 .experiencia {
   background-image: url('../imgmobile/background_experiencia_mobile1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .bt_afunda {
-  border-radius: 10px;
+  font-weight: bold;
+  color:white;
+  font-size:15px;
+  border-radius: 2rem;
+  border-style: none;
   width: 100px;
   height: 50px;
   background-color: #17A0C0;
 }
 
+.bt_afunda:disabled{
+  color:#89d6e6;
+}
+
 .bt_naoafunda {
-  border-radius: 10px;
+  font-weight: bold;
+  color:white;
+  font-size:15px;
+  border-radius: 2rem;
+  border-style: none;
   width: 100px;
   height: 50px;
   background-color: #EF6A87;
 }
 
+.bt_naoafunda:disabled{
+  color:#e8bac4;
+}
+
 .bt_anterior {
+  font-weight: bold;
+  color: white;
+  font-size:15px;
   margin: 2%;
-  border-radius: 15px;
+  border-radius: 2rem;
+  border-style: none;
   width: 100px;
   height: 50px;
   background-color: #62a4b3;
 }
 
 .bt_seguinte {
-  border-radius: 15px;
+  font-weight: bold;
+  color: white;
+  font-size:15px;
+  border-radius: 2rem;
+  border-style: none;
   width: 100px;
   height: 50px;
   background-color: #F5746E;
@@ -256,7 +282,7 @@ li {
 
 .bt_voltar {
   font-size: 20px;
-  color: black;
+  color: white;
   text-shadow: 0px 0px 20px red;
   margin-left: 10%;
   bottom: 5px;
@@ -268,8 +294,8 @@ li {
 
 .bt_continuar {
   font-size: 20px;
-  color: black;
-  text-shadow: 0px 0px 20px green;
+  color: white;
+  text-shadow: 0px 0px 20px red;
   margin-left: 10%;
   bottom: 5px;
 }
@@ -290,7 +316,8 @@ li {
 }
 
 .bt_posreciclagem{
-  border-radius: 15px;
+  border-radius: 2rem;
+  border-style: none;
   width: 150px;
   height: 30px;
   background-color: #EF6A87;
@@ -300,7 +327,8 @@ li {
   padding:20px 0px 0px 0px;
 }
 .bt_autores{
-  border-radius: 15px;
+  border-radius: 3rem;
+  border-style: none;
   width: 150px;
   height: 30px;
   background-color: #17A0C0;
@@ -308,6 +336,7 @@ li {
   margin:auto;
   display:block;
   font-size:15px;
+  font-weight: bold;
   color:white;
 }
 
