@@ -68,6 +68,7 @@ function Flutua4(){
     document.getElementById("resultado4").style.display="none";
     document.getElementById("teste4").style.display="none";
 }
+
 imagens=["graficoPET.png","graficoPVC.png","graficoPS.png","graficoHDPE.png","graficoLDPEeLLDPE.png","graficoPP.png"]
 titulos=["Polietileno teraftalato (PET)","Policloreto de vinilo (PVC)","Poliestireno(PS)","Polietileno de alta densidade(HDPE)","Polietileno de baixa densidade e Polietileno de baixa densidade linear(LDPE e LLDPE)","Polipropileno(PP)"]
 
@@ -87,8 +88,8 @@ function MostraImagemSeguinte(x,id_imagem,id_titulo){
     document.getElementById(id_titulo).innerText=titulos[index_imagem];
     //guardar o nº da imagem atual
     document.getElementById(id_titulo).dataset.index=index_imagem;
-
 }
+
 function Flutua_1(){
     document.getElementById("copo1").style.display="none";
     document.getElementById("parte1").style.display="block";
