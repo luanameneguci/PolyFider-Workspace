@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
     <title>Experiência</title>
 </head>
 <body class="experiencia">
     <h1 id="experienciatitulo">Experiência POLY<b class="b-experiencia">FINDER</b></h1>
+    <a class="bt_home" href="index.html"><span class="material-symbols-outlined"> Home</span></a>
     <div id="teste1" class="passos-experiencia">
         <h2>1ºTeste</h2>
         <p>Adicione a sua amostra de plástico no copo com a solução de cloreto de sódio (d = 1,2 g/cm³) usando uma pinça. Mexa e verifique se o plástico afunda ou não afunda.</p>
@@ -25,7 +27,7 @@
         <p>Solução de cloreto de sódio (35,8 g/100 mL)</p>
         <p>d=1,2g/cm³</p>
         <img src="../imgmobile/copos/1-AFUNDAmobile.png" alt="Primeiro copo da experiencia com plástico afundado" id="copo1afunda">
-        <button class="bt_afunda" id="afunda_1" disabled="true">Afunda</button>
+        <button class="bt_afunda" id="afunda_1" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_1" onclick="Flutua_1()">Não afunda</button>
         <br>
         <label>Pode ser Polietileno teraftalato (PET) ou Policloreto de vinilo (PVC). Leva para o espectrofotómetro para verificar.</label>
@@ -38,7 +40,7 @@
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficopet','PET')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficopet','PET')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="teste2" style="display:none" class="passos-experiencia">
         <h2>2ºTeste</h2>
@@ -56,7 +58,7 @@
         <p>Água destilada</p>
         <p>d=1,0g/cm³</p>
         <img src="../imgmobile/copos/2-AFUNDAmobile.png" alt="Segunda copo da experiencia com plástico afundado" id="copo2afunda">
-        <button class="bt_afunda" id="afunda_2" disabled="true">Afunda</button>
+        <button class="bt_afunda" id="afunda_2" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_2" onclick="Flutua_2()">Não afunda</button>
         <br>
         <label>Pode ser Poliestireno (PS). Leva para o espectrofotómetro para verificar.</label>
@@ -69,7 +71,7 @@
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficops','PS')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficops','PS')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="teste3" style="display:none" class="passos-experiencia">
         <h2>3ºTeste</h2>
@@ -87,7 +89,7 @@
         <p>Solução etanólica 51%</p>
         <p>d=0,93g/cm³</p>
         <img src="../imgmobile/copos/3-AFUNDAmobile.png" alt="Terceiro copo da experiencia com plástico afundado" id="copo3afunda">
-        <button class="bt_afunda" id="afunda_3" disabled="true">Afunda</button>
+        <button class="bt_afunda" id="afunda_3" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_3" onclick="Flutua_3()">Não afunda</button>
         <br>
         <label>Pode ser Polietileno de alta densidade (PE-AD). Leva para o espectrofotómetro para verificar.</label>
@@ -100,7 +102,7 @@
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficohdpe','HDPE')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficohdpe','HDPE')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="teste4" style="display:none" class="passos-experiencia">
         <h2>4ºTeste</h2>
@@ -117,7 +119,7 @@
         <p>Solução etanólica 60%</p>
         <p>d=0,91g/cm³</p>
         <img src="../imgmobile/copos/4-AFUNDAmobile.png" alt="Quarto copo da experiencia com plástico afundado" id="copo4afunda">
-        <button class="bt_afunda" id="afunda_4" disabled="true">Afunda</button>
+        <button class="bt_afunda" id="afunda_4" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_4" onclick="Flutua4()">Não afunda</button>
         <br>
         <label>Pode ser Polietileno de baixa densidade (PE-BD). Leva para o espectrofotómetro para verificar.</label>
@@ -130,14 +132,14 @@
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficoldpeelldpe','LDPEeLLDPE')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficoldpeelldpe','LDPEeLLDPE')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="resultado5" style="display:none">
         <p>Solução etanólica 60%</p>
         <p>d=0.91g/cm³</p>
         <img src="../imgmobile/copos/4-FLUTUAmobile.png" alt="Quarto copo da experiencia com plastico a flutuar" id="copo4flutua">
         <button class="bt_afunda" id="afunda_5" onclick="Afunda4()">Afunda</button>
-        <button class="bt_naoafunda" id="naoafunda_5" disabled="true">Não afunda</button>
+        <button class="bt_naoafunda" id="naoafunda_5" disabled>Não afunda</button>
         <br>
         <label>Pode ser Polipropileno (PP). Leva para o espectrofotómetro para verificar.</label>
         <br>
@@ -149,7 +151,7 @@
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficopp','PP')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficopp','PP')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <script src="experiencia.js"></script>
 </body>

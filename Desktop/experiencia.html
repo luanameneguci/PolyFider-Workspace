@@ -4,17 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,600,0,0">
     <title>Experiência</title>
 </head>
 <body class="experiencia">
     <h1 id="experienciatitulo">Experiência POLY<b class="b-experiencia">FINDER</b></h1>
+    <a class="bt_home" href="index.html"><span class="material-symbols-outlined" style="font-size:50px"> Home</span></a>
     <div id="teste1" class="passos-experiencia">
         <h2>1ºTeste</h2>
         <p>Adicione a sua amostra de plástico no copo com a solução de cloreto de sódio (d = 1,2 g/cm³) usando uma pinça. Mexa e verifique se o plástico afunda ou não afunda.</p>
     </div>
     <div id="parte1">
-        <p>Solução de cloreto de sódio (35,8 g/100 mL)</p>
-        <p>d=1,2g/cm³</p>
+        <p class="textoexperiencia">Solução de cloreto de sódio (35,8 g/100 mL)</p>
+        <p class="textoexperiencia">d=1,2g/cm³</p>
         <img src="../img/copos/Copo1.png" alt="Primeiro copo da experiencia vazio" id="copo1">
         <img src="../img/copos/Copo1flutua.png" alt="Primeiro copo da experiencia com plástico a flutuar" style="display:none" id="copo1flutua">
         <button  class="bt_afunda" id="afunda" onclick="Afunda1()">Afunda</button>
@@ -22,134 +24,134 @@
     </div>
     
     <div id="resultado1" style="display:none">
-        <p>Solução de cloreto de sódio (35,8 g/100 mL)</p>
-        <p>d=1,2g/cm³</p>
+        <p class="textoexperiencia">Solução de cloreto de sódio (35,8 g/100 mL)</p>
+        <p class="textoexperiencia">d=1,2g/cm³</p>
         <img src="../img/copos/Copo1afunda.png" alt="Primeiro copo da experiencia com plástico afundado" id="copo1afunda">
         <button class="bt_afunda" id="afunda_1" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_1" onclick="Flutua_1()">Não afunda</button>
         <br>
-        <label>Pode ser Polietileno teraftalato (PET) ou Policloreto de vinilo (PVC). Leva para o espectrofotómetro para verificar.</label>
+        <label class="textoexperiencia">Pode ser Polietileno teraftalato (PET) ou Policloreto de vinilo (PVC). Leva para o espectrofotómetro para verificar.</label>
         <br>
         <br>
-        <label data-index="0" id="PET">Polietileno teraftalato (PET)</label>
+        <label class="textoexperiencia" data-index="0" id="PET">Polietileno teraftalato (PET)</label>
         <br>
         <img class="grafico" id="graficopet" src="../img/graficos/graficoPET.png" alt="imagemdeumgrafico">
         <br>
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficopet','PET')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficopet','PET')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="teste2" style="display:none" class="passos-experiencia">
         <h2>2ºTeste</h2>
         <p>Seque bem o plástico e coloque no copo com a água destilada (d = 1,0 g/cm³) usando uma pinça diferente. Mexa e verifique se o plástico afunda ou não afunda.</p>
     </div>
     <div id="parte2" style="display:none">
-        <p>Água destilada</p>
-        <p>d=1,0g/cm³</p>
+        <p class="textoexperiencia">Água destilada</p>
+        <p class="textoexperiencia">d=1,0g/cm³</p>
         <img src="../img/copos/Copo2.png" alt="Segundo copo da experiencia vazio" id="copo2">
         <img src="../img/copos/Copo2flutua.png" alt="Segunda copo da experiencia com plástico a flutuar" style="display:none" id="copo2flutua">
         <button class="bt_afunda" id="afunda2" onclick="Afunda2()">Afunda</button>
         <button class="bt_naoafunda" id="naoafunda2" onclick="Flutua2()">Não afunda</button>
     </div>
     <div id="resultado2" style="display:none">
-        <p>Água destilada</p>
-        <p>d=1,0g/cm³</p>
+        <p class="textoexperiencia">Água destilada</p>
+        <p class="textoexperiencia">d=1,0g/cm³</p>
         <img src="../img/copos/Copo2afunda.png" alt="Segunda copo da experiencia com plástico afundado" id="copo2afunda">
         <button class="bt_afunda" id="afunda_2" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_2" onclick="Flutua_2()">Não afunda</button>
         <br>
-        <label>Pode ser Poliestireno (PS). Leva para o espectrofotómetro para verificar.</label>
+        <label class="textoexperiencia">Pode ser Poliestireno (PS). Leva para o espectrofotómetro para verificar.</label>
         <br>
         <br>
-        <label data-index="2" id="PS">Poliestireno(PS)</label>
+        <label class="textoexperiencia" data-index="2" id="PS">Poliestireno(PS)</label>
         <br>
         <img class="grafico" id="graficops" src="../img/graficos/graficoPS.png" alt="imagemdeumgrafico">
         <br>
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficops','PS')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficops','PS')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="teste3" style="display:none" class="passos-experiencia">
         <h2>3ºTeste</h2>
         <p>Seque bem o plástico e coloque no copo com a solução de etanólica de 51% (d = 0,93 g/cm³) usando uma pinça diferente. Mexa e verifique se o plástico afunda ou não afunda.</p>
     </div>
     <div id="parte3" style="display:none">
-        <p>Solução etanólica 51%</p>
-        <p>d=0,93g/cm³</p>
+        <p class="textoexperiencia">Solução etanólica 51%</p>
+        <p class="textoexperiencia">d=0,93g/cm³</p>
         <img src="../img/copos/Copo3.png" alt="Terceiro copo da experiencia vazio" id="copo3">
         <img src="../img/copos/Copo3flutua.png" alt="Terceiro copo da experiencia com plástico a flutuar" style="display:none" id="copo3flutua">
         <button class="bt_afunda" id="afunda3" onclick="Afunda3()">Afunda</button>
         <button class="bt_naoafunda" id="naoafunda3" onclick="Flutua3()">Não afunda</button>
     </div>
     <div id="resultado3" style="display:none">
-        <p>Solução etanólica 51%</p>
-        <p>d=0,93g/cm³</p>
+        <p class="textoexperiencia">Solução etanólica 51%</p>
+        <p class="textoexperiencia">d=0,93g/cm³</p>
         <img src="../img/copos/Copo3afunda.png" alt="Terceiro copo da experiencia com plástico afundado" id="copo3afunda">
         <button class="bt_afunda" id="afunda_3" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_3" onclick="Flutua_3()">Não afunda</button>
         <br>
-        <label>Pode ser Polietileno de alta densidade (PE-AD). Leva para o espectrofotómetro para verificar.</label>
+        <label class="textoexperiencia">Pode ser Polietileno de alta densidade (PE-AD). Leva para o espectrofotómetro para verificar.</label>
         <br>
         <br>
-        <label data-index="3" id="HDPE">Polietileno de alta densidade(HDPE)</label>
+        <label class="textoexperiencia" data-index="3" id="HDPE">Polietileno de alta densidade(HDPE)</label>
         <br>
         <img class="grafico" id="graficohdpe" src="../img/graficos/graficoHDPE.png" alt="imagemdeumgrafico">
         <br>
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficohdpe','HDPE')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficohdpe','HDPE')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="teste4" style="display:none" class="passos-experiencia">
         <h2>4ºTeste</h2>
         <p>Seque bem o plástico e coloque no copo com a solução etanólica 60% (d = 0,91 g/cm³) usando uma pinça diferente. Mexa e verifique se o plástico afunda ou não afunda</p>
     </div>
     <div id="parte4" style="display:none">
-        <p>Solução etanólica 60%</p>
-        <p>d=0,91g/cm³</p>
+        <p class="textoexperiencia">Solução etanólica 60%</p>
+        <p class="textoexperiencia">d=0,91g/cm³</p>
         <img src="../img/copos/Copo4.png" alt="Quarto copo da experiencia vazio" id="copo4">
         <button class="bt_afunda" id="afunda4" onclick="Afunda4()">Afunda</button>
         <button class="bt_naoafunda" id="naoafunda4" onclick="Flutua4()">Não afunda</button>
     </div>
     <div id="resultado4" style="display:none">
-        <p>Solução etanólica 60%</p>
-        <p>d=0,91g/cm³</p>
+        <p class="textoexperiencia">Solução etanólica 60%</p>
+        <p class="textoexperiencia">d=0,91g/cm³</p>
         <img src="../img/copos/Copo4afunda.png" alt="Quarto copo da experiencia com plástico afundado" id="copo4afunda">
         <button class="bt_afunda" id="afunda_4" disabled>Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_4" onclick="Flutua4()">Não afunda</button>
         <br>
-        <label>Pode ser Polietileno de baixa densidade (PE-BD). Leva para o espectrofotómetro para verificar.</label>
+        <label class="textoexperiencia">Pode ser Polietileno de baixa densidade (PE-BD). Leva para o espectrofotómetro para verificar.</label>
         <br>
         <br>
-        <label data-index="4" id="LDPEeLLDPE">Polietileno de baixa densidade e Polietileno de baixa densidade linear(LDPE e LLDPE)</label>
+        <label class="textoexperiencia" data-index="4" id="LDPEeLLDPE">Polietileno de baixa densidade e Polietileno de baixa densidade linear(LDPE e LLDPE)</label>
         <br>
         <img class="grafico" id="graficoldpeelldpe" src="../img/graficos/graficoLDPEeLLDPE.png" alt="imagemdeumgrafico">
         <br>
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficoldpeelldpe','LDPEeLLDPE')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficoldpeelldpe','LDPEeLLDPE')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <div id="resultado5" style="display:none">
-        <p>Solução etanólica 60%</p>
-        <p>d=0.91g/cm³</p>
+        <p class="textoexperiencia">Solução etanólica 60%</p>
+        <p class="textoexperiencia">d=0.91g/cm³</p>
         <img src="../img/copos/Copo4flutua.png" alt="Quarto copo da experiencia com plastico a flutuar" id="copo4flutua">
         <button class="bt_afunda" id="afunda_5" onclick="Afunda4()">Afunda</button>
         <button class="bt_naoafunda" id="naoafunda_5" disabled>Não afunda</button>
         <br>
-        <label>Pode ser Polipropileno (PP). Leva para o espectrofotómetro para verificar.</label>
+        <label class="textoexperiencia">Pode ser Polipropileno (PP). Leva para o espectrofotómetro para verificar.</label>
         <br>
         <br>
-        <label data-index="5" id="PP">Polipropileno(PP)</label>
+        <label class="textoexperiencia" data-index="5" id="PP">Polipropileno(PP)</label>
         <br>
         <img class="grafico" id="graficopp" src="../img/graficos/graficoPP.png" alt="imagemdeumgrafico">
         <br>
         <button class="bt_anterior" onclick="MostraImagemSeguinte(-1,'graficopp','PP')">Anterior</button>
         <button class="bt_seguinte" onclick="MostraImagemSeguinte(1,'graficopp','PP')">Seguinte</button>
         <br>
-        <a href ="posreciclagem.html">Pós-Reciclagem</a>
+        <a class="bt_posreciclagem" href ="posreciclagem.html">Pós-Reciclagem</a>
     </div>
     <script src="experiencia.js"></script>
 </body>

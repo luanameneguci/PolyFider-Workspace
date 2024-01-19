@@ -162,6 +162,7 @@ a{
   justify-content: center;
   background-color: #6295EB;
   display: flex;
+  font-size:30px;
 }
 
 #materiais{
@@ -213,7 +214,7 @@ li{
 }
 
 .experiencia{
-  background-image: url('../img/background-experiencia.jpg');
+  background-image: url('../img/background_experiencia_alongado.jpg');
 }
 
 .posreciclagem{
@@ -250,4 +251,49 @@ li{
 .grafico{
   width: 578px;
   height: 274px;
+}
+.bt_home {
+  top: 10px;
+  right: 10px;
+  position: fixed;
+  margin: 0px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textoexperiencia{
+  font-size:30px;
+}
+
+.bt_posreciclagem{
+  border-radius: 15px;
+  width: 250px;
+  height: 75px;
+  background-color: #EF6A87;
+  box-shadow: 5px 5px #d7244b;
+  margin:auto;
+  display:block;
+  padding:30px 0px 0px 0px;
+}
+
+.bt_autores{
+  border-radius: 15px;
+  width: 250px;
+  height: 75px;
+  background-color: #17A0C0;
+  box-shadow: 5px 5px #0c7087;
+  margin:auto;
+  display:block;
+  font-size:30px;
+  color:white;
+}
+
+.img_tartaruga{
+  position:absolute;
+}
+
+.img_placapraia{
+  position:absolute;
 }

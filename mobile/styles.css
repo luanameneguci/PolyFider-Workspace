@@ -1,32 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;500&family=Roboto:wght@400;700&display=swap');
-*{
-    font-family: Roboto;
+
+* {
+  font-family: Roboto;
 }
 
 body {
-    background-image: url('../img/background_alongado-100.jpg');
-    background-repeat: no-repeat;
-    background-size: 100%;
-    color: white;
+  background-image: url('../img/background_alongado-100.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: white;
 }
 
-#titulo{
-    font-size: 40px;
-    font-family: Kanit;
-    font-weight: 400;
-    color: #303030;
-    margin: 0 auto;
-    margin: 10%;
-    margin-top: 5%;
-    margin-bottom: 40%;
-    text-align: center;
+#titulo {
+  font-size: 40px;
+  font-family: Kanit;
+  font-weight: 400;
+  color: #303030;
+  margin: 0 auto;
+  margin: 10%;
+  margin-top: 5%;
+  margin-bottom: 40%;
+  text-align: center;
 }
 
-.b{
+.b {
   font-size: 36px;
 }
 
-.text-card{
+.text-card {
   font-size: 15px;
   color: white;
   margin-block-start: 0;
@@ -35,10 +36,10 @@ body {
   margin-top: 5px;
   margin-bottom: 5px;
   align-self: center;
-  overflow:scroll;
+  overflow: scroll;
 }
 
-.titulo-card{
+.titulo-card {
   font-size: 20px;
   color: white;
   padding: 5%;
@@ -47,30 +48,33 @@ body {
   align-self: left;
 }
 
-.container{
+.container {
   width: 95%;
-  height:150px;
+  height: 150px;
   perspective: 2000px;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
-.card{
+.card {
   align-self: center;
   display: flex;
   flex-direction: column;
-  height:100%;
-  width:90%;
+  height: 100%;
+  width: 90%;
   transition: transform 1500ms;
   transform-style: preserve-3d;
   padding-bottom: 5%;
 }
 
-.front-blue, .back-blue, .front-red, .back-red{
-  height:100%;
-  width:100%;
+.front-blue,
+.back-blue,
+.front-red,
+.back-red {
+  height: 100%;
+  width: 100%;
   border-radius: 2rem;
   position: absolute;
   backface-visibility: hidden;
@@ -80,20 +84,20 @@ body {
   align-self: center;
 }
 
-.front-red{
+.front-red {
   background-color: #F5746E;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.front-blue{
+.front-blue {
   background-color: #6295EB;
   display: flex;
   flex-direction: column;
 }
 
-.back-red{
+.back-red {
   background-color: #C85E59;
   transform: rotateY(180deg);
   display: flex;
@@ -101,7 +105,7 @@ body {
   justify-content: center;
 }
 
-.back-blue{
+.back-blue {
   background-color: #4A76BF;
   transform: rotateY(180deg);
   display: flex;
@@ -109,7 +113,7 @@ body {
   justify-content: center;
 }
 
-a{
+a {
   text-decoration: none;
   font-weight: bold;
   color: white;
@@ -119,21 +123,21 @@ a{
   margin-right: 20%;
   margin-left: 20%;
   text-align: center;
-  font-size:15px;
+  font-size: 15px;
 }
 
-.comecar{
+.comecar {
   background-color: #6295EB;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
-.ver-exemplos{
+.ver-exemplos {
   background-color: #F5746E;
-  margin-bottom:5%;
+  margin-bottom: 5%;
 }
 
-#experienciatitulo{
-  font-family:'Kanit', sans-serif;
+#experienciatitulo {
+  font-family: 'Kanit', sans-serif;
   font-size: 30px;
   font-weight: 400;
   text-align: center;
@@ -142,11 +146,11 @@ a{
   margin-top: 8%;
 }
 
-.b-experiencia{
+.b-experiencia {
   font-size: 27px;
 }
 
-.passos-experiencia{
+.passos-experiencia {
   margin: 10%;
   padding: 5%;
   border-radius: 2rem;
@@ -154,10 +158,9 @@ a{
   flex-direction: column;
   justify-content: center;
   background-color: #6295EB;
-  margin-top: 40%;
 }
 
-#materiais{
+#materiais {
   margin: 10%;
   padding: 5%;
   border-radius: 2rem;
@@ -168,7 +171,7 @@ a{
   margin-top: 40%;
 }
 
-.materiais-necessarios{
+.materiais-necessarios {
   text-align: center;
   font-size: 20px;
 }
@@ -178,11 +181,11 @@ ul {
   font-size: 15px;
 }
 
-li{
+li {
   margin-bottom: 5%;
 }
 
-.cartaoposreciclagem{
+.cartaoposreciclagem {
   margin: 10%;
   padding: 5%;
   border-radius: 2rem;
@@ -197,38 +200,41 @@ li{
   position: relative;
 }
 
-.fazrodar{
+.fazrodar {
   cursor: pointer;
   transform: rotateY(180deg);
 }
 
-.img_card{
+.img_card {
   position: absolute;
   top: 10px;
   left: 20px;
 }
 
-.img_lixoflutua{
+.img_lixoflutua {
   position: absolute;
   z-index: 1;
 }
-.experiencia{
-  background-image: url('../img/background-experiencia.jpg');
+
+.experiencia {
+  background-image: url('../imgmobile/background_experiencia_mobile1.jpg');
 }
-.bt_afunda{
-  margin: 5%;
+
+.bt_afunda {
   border-radius: 10px;
   width: 100px;
   height: 50px;
   background-color: #17A0C0;
 }
-.bt_naoafunda{
+
+.bt_naoafunda {
   border-radius: 10px;
   width: 100px;
   height: 50px;
   background-color: #EF6A87;
 }
-.bt_anterior{
+
+.bt_anterior {
   margin: 2%;
   border-radius: 15px;
   width: 100px;
@@ -236,35 +242,79 @@ li{
   background-color: #62a4b3;
 }
 
-.bt_seguinte{
+.bt_seguinte {
   border-radius: 15px;
   width: 100px;
   height: 50px;
   background-color: #F5746E;
 }
-.grafico{
+
+.grafico {
   width: 273px;
   height: 120px;
 }
-.bt_voltar{
+
+.bt_voltar {
   font-size: 20px;
   color: black;
   text-shadow: 0px 0px 20px red;
   margin-left: 10%;
-  position: fixed;
-  bottom:5px;
+  bottom: 5px;
 }
-.bt_voltar:active{
+
+.bt_voltar:active {
   color: white;
 }
-.bt_continuar{
+
+.bt_continuar {
   font-size: 20px;
   color: black;
   text-shadow: 0px 0px 20px green;
-  margin-left: 80%;
-  position: fixed;
-  bottom:5px;
+  margin-left: 10%;
+  bottom: 5px;
 }
-.bt_continuar:active{
+
+.bt_continuar:active {
   color: white;
+}
+
+.bt_home {
+  top: 10px;
+  right: 10px;
+  position: fixed;
+  margin: 0px;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bt_posreciclagem{
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: #EF6A87;
+  box-shadow: 5px 5px #d7244b;
+  margin:auto;
+  display:block;
+  padding:20px 0px 0px 0px;
+}
+.bt_autores{
+  border-radius: 15px;
+  width: 150px;
+  height: 30px;
+  background-color: #17A0C0;
+  box-shadow: 5px 5px #0c7087;
+  margin:auto;
+  display:block;
+  font-size:15px;
+  color:white;
+}
+
+.img_tartaruga{
+  position:absolute;
+}
+
+.img_placapraia{
+  position:absolute;
 }
